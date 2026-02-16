@@ -23,17 +23,9 @@
 
 3. Install browsers
 
-```bash
-npx playwright install
-```
-
-## Project folder structure
-
-- [tests](tests) - UI tests
-- [utils](utils) - Utility functions
-- [page-object-models](page-object-models) - Page object models
-- [fixtures](fixtures) - Playwright fixtures
-- [test-data](test-data) - Test data
+   ```bash
+   npx playwright install
+   ```
 
 ## Running tests
 
@@ -58,3 +50,11 @@ HTML report is automatically opened if any test fails, however you can also open
 ```bash
 npx playwright show-report
 ```
+
+## Project folder structure
+
+- [tests](tests) - UI tests
+- [utils](utils) - Utility functions
+- [page-object-models](page-object-models) - Page object models
+- [fixtures](fixtures) - Playwright fixtures
+- [test-data](test-data) - Test data
