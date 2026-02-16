@@ -11,6 +11,7 @@ export default defineConfig([
         files: ['**/*.ts'],
         rules: {
             ...playwright.configs['flat/recommended'].rules,
+            'playwright/no-standalone-expect': 'off',
         },
     },
 ]);
