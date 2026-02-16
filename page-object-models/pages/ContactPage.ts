@@ -66,8 +66,10 @@ export default class ContactPage {
                 );
         }
 
+        // TO FIX: There are more date formats to handle
         await expect(this.dateTime.dateTimePicker).toHaveValue(expectedDateValue);
 
+        // TO FIX: Pressing escape or clicking outside the date picker doesn't close the date picker in playwright test
         // Close date picker
         await this.page.keyboard.press('Escape');
 
